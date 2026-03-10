@@ -1,0 +1,35 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+*.lock
+
+# Android build artifacts
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/.idea/
+
+# Google Services — DO NOT commit this file!
+# Place your google-services.json in: mobile/android/app/
+android/app/google-services.json
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# macOS
+.DS_Store
+
+# Generated files
+lib/generated_plugin_registrant.dart
