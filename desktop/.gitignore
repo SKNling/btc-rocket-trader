@@ -1,0 +1,20 @@
+# Desktop app — files that should NOT be committed
+
+# Config (contains FCM keys, ngrok token, screen positions)
+config.json
+
+# Firebase service-account credentials
+*.json
+!requirements*.json
+
+# Screenshots saved at runtime
+screenshots/
+
+# Log files
+logs/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
